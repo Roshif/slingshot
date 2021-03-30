@@ -5,31 +5,37 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Slingshot</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600,700,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/common.css">
 </head>
 <body>
   <div class="main-wrap">
     <div class="order-summary">
-      <div class="order-summary__heading">Order Summary <span class="order-summary__heading-arrow"></span></div>
-      <div class="order-summary__section">
+      <h1 class="order-summary__heading page-heading">Order Summary <span class="order-summary__heading-arrow"></span></h1>
+      <div class="order-summary__section flex-row">
         <div class="order-summary__image">
-          <img src="" alt="" class="order-summary__img">
+          <img src="images/prod-image.jpeg" alt="" class="order-summary__img">
         </div>
         <div class="order-summary__detail">
           <div class="order-summary__title">The Empower Tartan Double Breasted Blazer</div>
           <div class="order-summary__features">
-            <div class="order-summary__color">
+            <div class="order-summary__color flex-row-between">
               <div>Color</div>
               <div>Blue</div>
             </div>
-            <div class="order-summary__size">
+            <div class="order-summary__size flex-row-between">
               <div>Size</div>
               <div>Small</div>
             </div>
-            <div class="order-summary__quantity">
+            <div class="order-summary__quantity flex-row-between">
               <div>Quantity</div>
               <div>1</div>
             </div>
-            <div class="order-summary__condition">
+            <div class="order-summary__condition flex-row-between">
               <div>Condition
                 <span class="order-summary__condition-tooltip"></span>
               </div>
@@ -37,12 +43,13 @@
             </div>
           </div>  
         </div>
+      </div>
         <div class="order-summary__shipping-detail">
-          <div class="order-summary__shipping-period">
+          <div class="order-summary__shipping-period flex-row-between">
             <div>Borrow Period (until Jan 15)</div>
             <div>$50.00</div>
           </div>
-          <div class="order-summary__shipping-status">
+          <div class="order-summary__shipping-status flex-row-between">
             <div>Shipping</div>
             <div>Free</div>
           </div>
@@ -50,13 +57,14 @@
             Orders placed today ship within 24-48 hours
           </div>
         </div>
-        <div class="order-summary__total">
+        <div class="order-summary__total flex-row-between">
           <span>Total</span>
           <span>$50.00</span>
         </div>
-      </div>
     </div>
-    
+    <div class="create-account">
+      <div class="page-heading"></div>
+    </div>
     </div>
 </body>
 </html>

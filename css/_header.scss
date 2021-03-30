@@ -1,0 +1,22 @@
+// header
+.header {
+  &__logo {
+    text-align: center;
+    padding: 38px 0;
+  }
+  &__message {
+    text-align: center;
+    background-color: #A4ECB8;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+
+    &--shipment {
+      background-color: #D1ECA4;
+    }
+
+    &--error {
+      background-color: #f00;
+    }
+  }
+}

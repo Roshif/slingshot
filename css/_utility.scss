@@ -1,0 +1,38 @@
+.clearfix {
+  display: block;
+  width: 100%;
+  position: relative;
+  &:after, &:before {
+    content: '';
+    width: 100%;
+    display: block;
+  }
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.show {
+  display: block;
+}
+.hide{
+  display: none;
+}
+.show-for-small {
+  display: block;
+}
+.hide{
+  display: none;
+}
+.flex-row {
+  display: flex;
+}
+.flex-row-between {
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  max-width: 100%;
+}

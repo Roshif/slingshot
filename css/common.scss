@@ -1,0 +1,89 @@
+@import "variables";
+@import "form";
+@import "header";
+@import "mixins";
+@import "utility";
+
+
+body {
+  font-family: $primaryFont;
+  font-weight: 300;
+}
+.main-wrap {
+  max-width: 391px;
+  margin: auto;
+  padding: 0 16px;
+}
+
+.page-heading {
+  color: $darkGray;
+  font-family: $secondaryFont;
+  font-weight: 400;
+  font-size: 32px;  
+  line-height: 32px;
+}
+
+.order-summary {
+  margin-top: 75px;
+
+  &__heading {
+    margin-bottom: 32px;
+
+    &-arrow {
+      border: 5px solid transparent;
+      border-top: 9px solid $darkGray;
+      display: inline-block;
+    }
+  }
+
+  &__image {
+    max-width: 160px;
+    margin-right: 30px;
+  }
+
+  &__img {
+    display: block;
+  }
+
+  &__detail {
+    margin-top: 12px;
+    max-width: 325px;
+    width: 100%;
+    border-bottom: 1px solid;
+    border-color: $darkGray;
+  }
+
+  &__title {
+    color: $darkGray;
+    font-family: $secondaryFont;
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 10px;
+  }
+
+  &__features {
+    font-size: 15px;
+    line-height: 150%;
+  }
+
+  &__shipping {
+    &-detail {
+      border-bottom: 1px solid;
+      border-color: $darkGray;
+      font-size: 15px;
+      margin-top: 30px;
+      padding-bottom: 18px;
+    }
+
+    &-status {
+      margin: 4px 0;
+    }
+  }
+
+  &__total {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 18px;
+  }
+}
